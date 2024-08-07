@@ -16,3 +16,6 @@ app.use(cors());
 app.use('/auth', authRoutes);
 app.use('/users', userRoutes);
 app.listen(process.env.PORT, () => console.log('Express demo listening on port 3000!'));
+
+
+console.log("Hello");
